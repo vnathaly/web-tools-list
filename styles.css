@@ -9,7 +9,6 @@ body {
 }
 
 .gallery {
-  align-items: center;
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
@@ -24,6 +23,7 @@ p.text {
   color: white;
   background-color: #e85947;
   display: flex;
+  justify-content: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 15px;
   max-width: 40px;
