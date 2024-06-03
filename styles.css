@@ -5,15 +5,14 @@ body {
 .gallery img {
   height: 270px;
   width: 285px;
-  justify-content: center;
   object-fit: cover;
 }
 
 .gallery {
-  align-items: center;
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  justify-content: center;
   margin: 0 auto;
   max-width: 1400px;
   padding-left: 0%;
