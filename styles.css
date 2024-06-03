@@ -4,7 +4,7 @@ body {
 
 .gallery img {
   height: 270px;
-  width: 286px;
+  width: 285px;
   justify-content: center;
   object-fit: cover;
 }
@@ -15,8 +15,6 @@ body {
   flex-wrap: wrap;
   gap: 16px;
   margin: 0 auto;
-  margin-left: 5px;
-  margin-right: 5px;
   max-width: 1400px;
   padding-left: 0%;
   padding-top: 15px;
