@@ -4,9 +4,9 @@ body {
 
 .gallery .gallery-item {
   display: block;
-  height: 200px;
+  height: 250px;
   position: relative;
-  width: 230px;
+  width: 280px;
 }
 
 .gallery-item img {
@@ -56,7 +56,7 @@ a:hover img {
   display: flex;
   justify-content: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-left: 92px;
+  margin-left: 54px;
   max-width: 40px;
   padding: 5px 15px;
 }
