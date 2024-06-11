@@ -3,84 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css?v=plota">
+  <link rel="stylesheet" href="styles.css">
   <title>Document</title>
 </head>
   <body>
-    <p class="text">Tools</p>
-    <div class="gallery">      
-      <a href="#" class="gallery-item">
-        <img src="./imgs/img1.png">
-        <div class="overlay">
-          <h1>Lorem</h1>
-        </div>
+    <script></script>
+    <!-- <button class="each-btn" onclick="each">Each</button> -->
+    <div class="menu">      
+      <button id="all-btn" data-category="all" onclick= "showContent('all')">All</button>
+      <button id="apps-btn" data-category="apps" onclick="showContent('apps')">Apps</button>
+      <button id="news-btn" data-category="news" onclick="showContent('social')">News</button>
+      <button id="social-btn" data-category="social" onclick="showContent('news')">Social</button> 
+    </div>
+    <div class="gallery">
+      <a href="#" class="gallery-item" data-category="social">
+          <img src="./imgs/img1.png">
+          <div class="overlay">
+            <h1>Lorem</h1>
+          </div>
       </a>    
-      <a href="#" class="gallery-item">
-        <img src="./imgs/img2.png">
-        <div class="overlay">
-          <h1>Lorem</h1>
-        </div>
+      <a href="#" class="gallery-item" data-category="apps">
+          <img src="./imgs/img2.png">
+          <div class="overlay">
+            <h1>Lorem</h1>
+          </div>
       </a>
-      <a href="#" class="gallery-item">
-        <img src="./imgs/img3.jpg">
-        <div class="overlay">
-          <h1>Lorem</h1>
-        </div>
+      <a href="#" class="gallery-item" data-category="apps">
+          <img src="./imgs/img3.jpg">
+          <div class="overlay">
+            <h1>Lorem</h1>
+          </div>
       </a>
-      <a href="#" class="gallery-item">
-        <img src="./imgs/img4.jpg">
-        <div class="overlay">
-          <h1>Lorem</h1>
-        </div>
+      <a href="#" class="gallery-item" data-category="news">
+          <img src="./imgs/img4.jpg">
+          <div class="overlay">
+            <h1>Lorem</h1>
+          </div>
       </a>
-      <a href="#" class="gallery-item">
-        <img src="./imgs/img5.jpg">
-        <div class="overlay">
-          <h1>Lorem</h1>
-        </div>
+      <a href="#" class="gallery-item" data-category="apps">
+          <img src="./imgs/img5.jpg">
+          <div class="overlay">
+            <h1>Lorem</h1>
+          </div>
       </a>
-      <a href="#" class="gallery-item">
-        <img src="./imgs/img6.jpg">
-        <div class="overlay">
-          <h1>Lorem</h1>
-        </div>
+      <a href="#" class="gallery-item" data-category="news">
+          <img src="./imgs/img6.jpg">
+          <div class="overlay">
+            <h1>Lorem</h1>
+          </div>
       </a>
-      <a href="#" class="gallery-item">
-        <img src="./imgs/img7.jpg">
-        <div class="overlay">
-          <h1>Lorem</h1>
-        </div>
+      <a href="#" class="gallery-item" data-category="news">
+          <img src="./imgs/img7.jpg">
+         <div class="overlay">
+            <h1>Lorem</h1>
+          </div>
       </a>
-      <a href="#" class="gallery-item">
-        <img src="./imgs/img8.jpg">
-        <div class="overlay">
-          <h1>Lorem</h1>
-        </div>
+      <a href="#" class="gallery-item" data-category="social">
+          <img src="./imgs/img8.jpg">
+          <div class="overlay">
+            <h1>Lorem</h1>
+          </div>
       </a>
-      <a href="#" class="gallery-item">
-        <img src="./imgs/img9.jpg">
-        <div class="overlay">
-          <h1>Lorem</h1>
-        </div>
+      <a href="#" class="gallery-item" data-category="apps">
+          <img src="./imgs/img9.jpg">
+          <div class="overlay">
+            <h1>Lorem</h1>
+          </div>
       </a>
-      <a href="#" class="gallery-item">
-        <img src="./imgs/img10.jpg">
-        <div class="overlay">
-          <h1>Lorem</h1>
-        </div>
+      <a href="#" class="gallery-item" data-category="news">
+          <img src="./imgs/img10.jpg">
+          <div class="overlay">
+            <h1>Lorem</h1>
+          </div>
       </a>
-      <a href="#" class="gallery-item">
-        <img src="./imgs/img11.jpg">
-        <div class="overlay">
-          <h1>Lorem</h1>
-        </div>
+      <a href="#" class="gallery-item" data-category="social">
+          <img src="./imgs/img11.jpg">
+          <div class="overlay">
+            <h1>Lorem</h1>
+          </div>
       </a>
-      <a href="#" class="gallery-item">
-        <img src="./imgs/img12.jpg">
-        <div class="overlay">
-          <h1>Lorem</h1>
-        </div>
+      <a href="#" class="gallery-item" data-category="social">
+            <img src="./imgs/img12.jpg">
+            <div class="overlay">
+              <h1>Lorem</h1>
+            </div>
       </a>
-  </div>
+    </div>
+    <script src="javascript/button.js"></script>
   </body>
 </html>
